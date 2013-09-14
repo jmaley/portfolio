@@ -1,0 +1,4 @@
+rm a.out
+m4 cbuf.m > cbuf.s
+gcc cbuf.s cdrv.c
+./a.out 

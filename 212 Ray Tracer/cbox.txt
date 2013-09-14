@@ -1,0 +1,101 @@
+camera cam
+{
+   pixeldim 512 384
+   worlddim  5.12 3.84
+   viewpoint 2.56 2 5
+}
+
+light top
+{
+   location 2.56 3.80 -1.5
+   emissivity 1 1 1
+}
+
+material gray
+{
+   ambient 3 3 3
+   diffuse  .9 .9 .9
+}
+
+material green
+{
+   ambient 0 5 0
+   diffuse 0 .5 0
+}
+
+material salamander
+{
+   ambient 3 2 2
+   diffuse  .9 .9 .9
+}
+
+material slate
+{
+   ambient 2 1.8 3
+   diffuse  .9 .9 .9
+}
+
+material transparent
+{
+   ambient  3 3 3
+   diffuse  .1 .1 .1
+  specular  .9 .9 .9
+    alpha  .9
+      ior  1.83
+}
+
+material chrome
+{
+   ambient  3 3 3
+   diffuse  .1 .1 .1
+  specular  .9 .9 .9
+}
+
+plane backwall
+{
+   material gray
+   normal 0 0 1
+   point  0 0 -5
+}
+
+plane leftwall
+{
+   material salamander
+   normal 1 0 0
+   point  0 0 0
+}
+
+plane rightwall
+{
+   material slate
+   normal -1 0 0
+   point   5.12 0 0
+}
+
+plane ceiling
+{
+   material gray
+   normal  0 -1 0
+   point   0 3.84 0
+}
+
+plane floor
+{
+   material gray
+   normal 0 1 0
+   point  0 -0.2 0
+}
+
+sphere left
+{
+   material chrome
+   center 1.25 .75 -4
+   radius .9
+}
+
+sphere right
+{
+   material transparent
+   center 3.7 .7 -2.3
+   radius .9
+}

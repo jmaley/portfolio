@@ -1,0 +1,2 @@
+Left-click to insert points, use edit->build to build the kd tree.
+Once built, use middle mouse button to search for the nearest neighbor, use shift + middle mouse button to search for the three closest neighbors, and use right click to range query. 

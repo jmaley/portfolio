@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Dinosaur Tycoon</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_menu">Dinosaur Tycoon</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="title_activity_game_play">GamePlayActivity</string>
+    <string name="content_description"></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings_menu">SettingsMenuActivity</string>
+
+</resources>

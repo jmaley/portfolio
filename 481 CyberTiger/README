@@ -1,0 +1,17 @@
+ABOUT:
+  This project was done for my Creative Inquiry course (CPSC481). 
+
+  This is an Android Application that is capable of running four different network tests. It has benchmarks for latency, UDP bandwidth, TCP bandwidth, and UDP streaming. Test results are saved to an on-campus server, along with various phone properties from which it was sent.
+
+  Results are visible here: http://cybertiger.clemson.edu/map
+
+  On the website, you may filter by network type, provider, date, and more. 
+
+  This project demonstrates working knowledge of network programming.
+
+  NOTE: Although this project (version 2) was built from scratch, it was based off of a version 1. Credit has been given where appropriate in the source files.
+
+  A screenshot has been provided in this folder.
+
+USAGE:
+  Run the installer (located at bin/CyberTiger.apk) on any Android Device. 

@@ -1,0 +1,8 @@
+ABOUT:
+  This is a simple implementation of a non-deterministic pushdown automata (http://en.wikipedia.org/wiki/Pushdown_automaton) for my Foundations of Computer Science (CPSC350) course.
+
+  This program demonstrates a moderately complex Java project.
+
+USAGE:
+  Use 'make' to compile and execute the program. Input is taken from input.txt.
+  The input defines a branch table, which contains a state, input character, stack symbol, next state, stack action, and stack action parameter. Following the table, lines of text represent input tokens. The machine will apply the rules from the branch table and print whether or not the string was accepted. %T denotes a comment in the input file.

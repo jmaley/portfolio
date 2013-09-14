@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <ImageView
+        android:id="@+id/imageViewSettingsMenuBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/content_description"
+        android:scaleType="fitXY"
+        android:src="@drawable/settings_menu_background" />
+
+    <ImageView
+        android:id="@+id/imageViewSettingsMenuAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/settings_menu_audio" />
+    
+        <ImageView
+        android:id="@+id/imageViewButtonSettingsMenuViolence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/settings_menu_violence" />
+        
+        <ImageButton
+        android:id="@+id/imageButtonSettingsMenuViolence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="157dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/settings_menu_on" />
+        
+                <ImageButton
+        android:id="@+id/imageButtonSettingsMenuAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="107dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/settings_menu_on" />
+
+        <ImageView
+            android:id="@+id/imageViewButtonSettingsMenuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/settings_menu_title" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSettingsMenuBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/settings_menu_back" />
+
+</RelativeLayout>

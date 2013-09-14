@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CyberTiger</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_diagnostics_menu">DiagnosticsMenuActivity</string>
+    <string name="title_activity_information">InformationActivity</string>
+    
+    <string name="gpsPrefTitle">Preferred GPS</string>
+    <string-array name="gps_array">
+        <item>Mobile GPS</item>
+        <item>Network GPS</item>
+    </string-array>
+    
+    <string name="networkPrefTitle">Preferred Network</string>
+    <string-array name="network_array">
+        <item>WiFi</item>
+        <item>Mobile</item>
+    </string-array>
+
+</resources>

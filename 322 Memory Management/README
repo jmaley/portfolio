@@ -1,0 +1,11 @@
+ABOUT:
+  This was a project for my Operating Systems course. Essentially, the memory_routines.c provides two functions: one for allocating memory, and one for freeing memory.
+
+  The driver file (written by my professor) creates a simulated environment for memory management. We clear a 'region' in memory to use for allocating and freeing blocks of memory. It is meant to simulate a memory management scheme that could be used in an operating system.
+
+  This program demonstrates mastery of non-trivial C-code and experience with operating systems concepts. In the class, we also covered CPU scheduling techniques, synchronization, and virtual memory.
+
+
+USAGE:
+compile with 'gcc driver.c memory_routines.c'
+execute ./a.out

@@ -1,0 +1,20 @@
+ABOUT:
+  This file directory contains implementations of 4 data structures, all of which were done in my Algorithms & Data Structures course (CPSC212). 
+
+  The 'AVL Tree' is a self-balancing tree (when items are inserted or deleted). 
+
+  The 'Binary Heap' is a binary tree with two additional constraints: it is a complete tree, and all nodes are either >= or <= each of its children.
+
+  The 'OpenGL KD Tree' contains an implementation of a KD-tree, along with a driver that will visually represent the KD-tree, allowing for the user to build trees, insert, delete, query, and search for nearest neighbors. This program can be built on linux with the makefile, and it requires QT (http://qt-project.org/).
+
+  The 'Stack' contains an implementation of a stack using a linked list. The provided driver will use the stack to implement an infix expression evaluator from standard input.
+  For example, input '1 + 2 * 3 + ( 4 * 5 + 6 ) * 7' will print:
+  1 + 2 * 3 + ( 4 * 5 + 6 ) * 7
+  1 2 3 * + 4 5 * 6 + 7 * +  
+  189
+  8 + (2 * 6)
+  8 2 6 * + 
+  20
+  20 / 10 + 2
+  20 10 / 2 + 
+  4

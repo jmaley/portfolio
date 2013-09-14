@@ -1,0 +1,16 @@
+ABOUT:
+This program was developed during my Algorithms and Data Structures course (CPSC212).
+Essentially, it reads objects from input (spheres, planes, lights, etc) and draws them
+to standard out.
+
+It demonstrates mastery of C++, object oriented principles, and data structures.
+Key features include a k-d tree to query/store photons and use of openMP for multi-core rendering.
+
+Please note this was developed early in my programming career and should not be used as an example of good style (there are inconsistencies in naming schemes, indentations, and formatting).
+
+
+USAGE:
+use the command 'make' to build the executable 'main'
+the program reads a "scene" from standard input, and prints a PPM image to standard out
+example: ./main < cbox.txt > cbox.ppm
+i've provided sample output (cbox.ppm) and its conversion to a GIF format

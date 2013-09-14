@@ -1,0 +1,12 @@
+ABOUT:
+  This was a lab assignment for my Intro to Computer Organization course (CPSC231).
+  It implements a circular character buffer using C and SPARC ASM.
+
+  This program demonstrates working knowledge with an assembly language.
+
+  Executing the program will prompt the user to either put a new character into the buffer, remove a character, print the buffer, or quit. The buffer acts in a LIFO order.
+
+USAGE:
+  Execute the 'run' script to compile the C and m4 files into an executable.
+  Run with ./a.out
+  

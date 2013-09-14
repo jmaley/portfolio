@@ -1,0 +1,8 @@
+ABOUT:
+  This is a simple e-mail client, built for my Software Engineering Foundations course (CPSC215). This was a group assignment, and credit has been noted at the top of appropriate files.
+
+  The icon was taken from http://www.infobarrel.com/Media/email_icon
+
+  JavaMail API is needed to compile.
+
+  This program demonstrates mastery of Java, object-oriented design, various design patterns, and consistent styling.

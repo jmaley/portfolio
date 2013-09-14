@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutPreferencesMenuActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient"
+    tools:context=".InformationActivity" >
+
+    <TextView
+        android:id="@+id/textViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Preferences"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/logo_font_size" />
+    
+     <TextView
+        android:id="@+id/textViewGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Preferred GPS:"
+        android:textColor="#ffffffff"
+        android:textSize="26dp" />
+     
+     <TextView
+         android:id="@+id/textViewNetwork"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/spinnerGPS"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="30dp"
+         android:text="Preferred Network:"
+         android:textColor="#ffffffff"
+         android:textSize="26dp" />
+
+     <Spinner
+         android:id="@+id/spinnerGPS"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textViewGPS"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:entries="@array/gps_array"
+         android:prompt="@string/gpsPrefTitle"
+         tools:listitem="@android:layout/simple_spinner_item" />
+     
+     <Spinner
+         android:id="@+id/spinnerNetwork"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textViewNetwork"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:entries="@array/network_array"
+         android:prompt="@string/networkPrefTitle"
+         tools:listitem="@android:layout/simple_spinner_item" />
+	
+     <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerNetwork"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button"
+        android:text="Back"
+        android:textSize="26dp"
+        android:textColor="#ffffffff" />
+     
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+   <ImageButton
+        android:id="@+id/imageButtonMainMenuExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/content_description"
+        android:background="@null"
+        android:src="@drawable/main_menu_exit" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMainMenuSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/content_description"
+        android:background="@null"
+        android:src="@drawable/main_menu_settings" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMainMenuPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginLeft="14dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/content_description"
+        android:background="@null"
+        android:src="@drawable/main_menu_play" />
+
+	<ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:contentDescription="@string/content_description"
+		android:scaleType="fitXY"
+		android:src="@drawable/main_menu_background" />
+
+</RelativeLayout>

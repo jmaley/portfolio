@@ -1,0 +1,23 @@
+Each folder represents a course project, where the number in the folder name represents the course number. Additionally, each folder contains a README file that explains the project and its usage.
+
+If there is not time to view them all, I encourage you to at least look at the 212 Ray Tracer and the 372 Dinosaur Tycoon.
+
+Quick summaries of the projects:
+
+212 Data Structures [C++] - Contains implementations of an AVL tree, binary heap, KD tree, and a stack.
+
+212 Ray Tracer [C++] - Semester-long project that renders simple objects with complex lighting.
+
+215 SimpleMail [Java] - An EMail Client using the Swing API.
+
+215 WebCrawler [Java] - A simple command-line web crawler.
+
+231 Circular Buffer [C & SPARC ASM] - A LIFO circular character buffer to demonstrate assembly language knowledge.
+
+322 Memory Management [C] - A simulated memory management scheme, used to demonstrate non-trivial C-code and an operating system concept. 
+
+350 NDPDA [Java] - Command-line implementation of a non-deterministic pushdown automata
+
+372 Dinosaur Tycoon [Java] - An award-winning (http://it-ology-blog.org/2012/12/10/first-student-android-appathon-a-success/) 2D isometric Android game.
+
+481 CyberTiger [Java] - An Android App that is used for network benchmarking.

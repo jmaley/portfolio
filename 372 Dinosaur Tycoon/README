@@ -1,0 +1,7 @@
+ABOUT:
+  This project was done for my Intro to Software Engineering course (CPSC372). It was assigned as a group project, and credit has been given at the top of applicable source files.
+ 
+  This is a dinosaur park management game for Android. Players may edit terrain, build fences, place dinosaurs, buy trees/bushes and other objects. Ticket prices may be adjusted on the UI. A screenshot has been provided in this directory.
+
+USAGE:
+  The installation file (bin/Dinosaur Tycoon.apk) has been provided, transfer it to any Android device, run it, and it will install the application.

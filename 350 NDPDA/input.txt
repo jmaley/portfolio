@@ -1,0 +1,97 @@
+%BT
+%T L = {(a^n)(b^n) || (c^n)(b^n) : n >= 0}
+%T Uses multiple starting states
++q0	a	$	q0	s	T
++q0	a	T	q0	s	T
++q1	c	$	q1	s	T
++q1	c	T	q1	s	T
++q1	b	T	q2	p
++q0	b	T	q2	p
+q2	b	T	q2	p
+%ST
+$
+%T empty character will accept
+
+%T aabb will accept
+aabb
+%T ccbb will accept
+ccbb
+%T cabb will reject
+cabb
+%T aaabb will reject
+aaabb
+%ET
+
+%BT
+%T L = {(a^n)(b^n) : n >= 0}
+%T Uses a null transition before and after
++q0	#	$	q0	s	S
++q0	a	S	q0	s	A
++q0	a	A	q0	s	A
++q0	b	A	q1	p
+q1	b	A	q1	p
+q1	#	S	q1	p
+%ST
+$
+%T empty character will reject
+
+%T ab will accept
+ab
+%T aabb will accept
+aabb
+%ET
+
+%BT
+%T L = {(a^n)(b^m)(c*) : n >= 0, m = n || m = 2n}
+%T Uses multiple paths for the same input
+%T Uses Kleene Star
++q0	a	$	q1	s	A
++q0	a	A	q1	s	A
++q0	b	A	q2	p
++q0	b	A	q4	p
++q0	c	$	q3	n
+q1	#	A	q0	s	A
+q2	#	A	q3	p
+q3	b	A	q2	p
+q4	b	A	q4	p
+q3	c	$	q3	n
+q4	c	$	q3	n
+%ST
+$
+%T aabb will accept
+aabb
+%T aabbb will reject
+aabbb
+%T aabbbb will accept
+aabbbb
+%T aabbccc will accept
+aabbccc
+%T abbc will accept
+abbc
+%T acc will reject
+acc
+%T cccc will accept
+cccc
+%ET
+
+%BT
+%T ((ab)^n)(c^(n+1)) : n >= 0}
+%T Uses null transitions
++q0	#	$	q1	s	T
+q1	a	T	q2	n
+q1	c	T	q3	p
+q2	b	T	q1	s	T
+q3	c	T	q3	p
+%ST
+$
+%T abc will reject
+abc
+%T abcc will accept
+abcc
+%T ababccc will accept
+ababccc
+%T c will accept
+c
+%T cc will reject
+cc
+%ET
